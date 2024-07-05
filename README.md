@@ -1,6 +1,26 @@
-## Getting Started
+# Challenge - Security and System
 
-First, run the development server:
+Proyecto desarrollado para el challenge de Security and System.
+
+## Instalar dependencias del proyecto
+
+Descargar el proyecto en local e instalar dependencias.
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+## Ejecutar el proyecto
+
+### Modo Desarrollo
+
+Primero, correr el servidor en modo desarrollo.
 
 ```bash
 npm run dev
@@ -12,4 +32,32 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3004](http://localhost:3004) with your browser to see the result.
+Abrir en [http://localhost:3004](http://localhost:3004).
+
+### Modo Producción
+
+Primero, compilar el proyecto.
+
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+# or
+bun build
+```
+
+Luego, correr el servidor en modo producción.
+
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+# or
+bun start
+```
+
+Abrir en [http://localhost:3004](http://localhost:3004).
