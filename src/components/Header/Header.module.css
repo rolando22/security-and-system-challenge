@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.figure {
+  height: 190px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+@media (min-width: 770px) {
+
+  .header {
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 70%;
+  }
+
+  .figure {
+    height: 130px;
+    width: 130px;
+    display: flex;
+  }
+  
+}

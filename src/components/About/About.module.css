@@ -1,0 +1,12 @@
+.subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
